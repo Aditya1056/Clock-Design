@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock IST</title>
+    <link rel="stylesheet" href="clock.css">
+    <link rel="icon" href="clock-favicon.png">
+</head>
+<body class="light-mode">
+
+    <div class="nav-bar nav-bar-light">
+        <div class="header">Indian Standard Time (IST)</div>
+        <div class="toggle-btn">
+            <label for="box-input" class="switch">
+                <input type="checkbox" id="box-input">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </div>
+
+    <div class="time">
+
+        <div class="clock clock-light">
+
+            <div class="center center-light"></div>
+            <div class="hours-hand hours-hand-light" id="hour_id"></div>
+            <div class="minutes-hand minutes-hand-light" id="min_id"></div>
+            <div class="seconds-hand seconds-hand-light" id="sec_id"></div>
+
+        </div>
+
+
+        <div class="digital digital-light">
+            <div class="day">MONDAY</div>
+            <div class="digital-time">12:00:00 PM</div>
+            <div class="date">14 April 2023</div>
+            <div class="location">Location : <b>INDIA</b></div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
